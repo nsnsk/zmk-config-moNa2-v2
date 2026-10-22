@@ -70,7 +70,7 @@ layers:
   - C
   - V
   - B
-  - ':'
+  - '`'
   - ;
   - N
   - M
@@ -80,9 +80,9 @@ layers:
   - LEFT GUI
   - LEFT WIN
   - LEFT ALT
-  - {t: '`', h: NUM_M}
-  - {t: SPACE, h: MOUSE_M}
-  - {t: '-', h: SCRL_M}
+  - Ctl+LEFT ALT
+  - LGUI
+  - SPACE
   - ENTER
   - BACKSPACE
   - RIGHT SHIFT
@@ -166,7 +166,7 @@ layers:
   - LEFT GUI
   - LEFT GUI
   - LEFT ALT
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
@@ -253,7 +253,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
   - BACKSPACE
@@ -320,7 +320,7 @@ layers:
   - OUT TOG
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - LEFT SHIFT
@@ -340,7 +340,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
